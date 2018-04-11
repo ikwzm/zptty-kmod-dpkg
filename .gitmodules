@@ -1,0 +1,3 @@
+[submodule "PTTY_AXI"]
+	path = PTTY_AXI
+	url = https://github.com/ikwzm/PTTY_AXI.git
