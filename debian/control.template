@@ -1,0 +1,14 @@
+Source: zptty
+Section: kmod
+Priority: optional
+Maintainer: ikwzm <ichiro_k@ca2.so-net.ne.jp>
+Build-Depends: debhelper (>= 9), bzip2
+Standards-Version: 3.9.6
+Homepage: <https://github.com/ikwzm/PTTY_AXI>
+
+Package: zptty-${KERNEL_RELEASE}
+Architecture: any
+Provides: zptty-kernel-module
+Depends: ${shlibs:Depends}, ${misc:Depends}, linux-image-${KERNEL_RELEASE}
+Description: Pseudo TeleTYpewriter for FPGA Device.
+
