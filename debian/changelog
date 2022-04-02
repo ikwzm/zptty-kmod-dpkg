@@ -1,3 +1,9 @@
+zptty (1.1.0-1) unstable; urgency=low
+
+  * Update PTTY_AXI to 1.1.0
+
+ -- ikwzm <ichiro_k@ca2.so-net.ne.jp>  Sun, 3 Apr 2022 02:17:21 +0900
+
 zptty (1.0.0-1) unstable; urgency=low
 
   * Initial release
